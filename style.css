@@ -9,6 +9,7 @@ body {
   font-weight: 700;
   font-style: normal;
   color: hsl(0, 0%, 95%);
+  height: 100vh;
 }
 .container {
   background-color: rgb(83, 213, 166);
@@ -17,17 +18,13 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 100%;
 }
 .items {
   width: 300px;
   height: 400px;
 }
 
-.items {
-  min-width: 200;
-  max-width: 400;
-}
 .box1 {
   background-color: hsl(31, 77%, 52%);
 }
@@ -43,4 +40,10 @@ body {
 h1 {
   margin-top: 8rem;
   margin-left: 2rem;
+}
+
+p {
+  font-family: "Lexend Deca" sans-serif;
+  font-weight: 700;
+  size: 15px;
 }
